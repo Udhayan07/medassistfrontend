@@ -1,0 +1,51 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background: #007bff;
+    color: white;
+    padding: 1px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .appointment-form, .appointment-list {
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

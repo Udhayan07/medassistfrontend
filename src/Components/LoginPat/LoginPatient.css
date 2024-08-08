@@ -1,0 +1,20 @@
+.lg{
+    margin-top: 14%;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 0.1%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img{
+    border-radius: 50%;
+    border-color: black;
+    border-style:groove;
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg');
+    background-size: cover;
+}

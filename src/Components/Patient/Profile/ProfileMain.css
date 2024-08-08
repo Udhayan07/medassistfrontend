@@ -1,0 +1,28 @@
+.profile-main {
+  text-align: center;
+  background-color: #f0f4f1; /* Light gray background */
+  min-height: 100vh; /* Full height for the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-main-header {
+  background-color: #2c6e49; /* Dark green background */
+  padding: 20px;
+  color: white;
+  border-bottom: 5px solid #1e3d25; /* Slightly darker green border */
+}
+
+.profile-main-header h1 {
+  margin: 0;
+  font-size: 2em;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Optional: Add some responsive design */
+@media (max-width: 768px) {
+  .profile-main-header h1 {
+    font-size: 1.5em;
+  }
+}

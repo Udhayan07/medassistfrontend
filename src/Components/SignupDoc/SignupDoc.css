@@ -1,0 +1,60 @@
+/* Apply general styles to the container */
+.container {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+    ), url("https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the Box container */
+.box-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 2rem;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+/* Avatar styling */
+.avatar {
+    background-color: #00796b; /* Primary theme color */
+}
+
+/* Typography styling */
+.typography-header {
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #00796b; /* Primary theme color */
+}
+
+/* Button styling */
+.submit-button {
+    background-color: #c51162; /* Secondary theme color */
+    color: #fff;
+    border-radius: 25px; /* Rounded button */
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button hover effect */
+.submit-button:hover {
+    background-color: #a00037; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Link styling */
+.signin-link {
+    color: #00796b; /* Primary theme color */
+    font-weight: bold;
+}
+
+.signin-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}

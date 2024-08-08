@@ -1,0 +1,26 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.consultation-form {
+    background-image: url('https://img.freepik.com/free-photo/3d-background-with-white-cubes_23-2150472987.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721779200&semt=ais_user');
+    background-size: cover;
+    border-radius: 8px;
+    padding: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-form h4 {
+    margin-bottom: 16px;
+}
+
+.consultation-form .MuiInputBase-root {
+    margin-top: 8px;
+}
+
+.consultation-form .MuiButton-contained {
+    margin-top: 16px;
+}

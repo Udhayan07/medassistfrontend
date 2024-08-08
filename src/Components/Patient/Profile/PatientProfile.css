@@ -1,0 +1,42 @@
+.patient-profile {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #2c6e49; /* Dark green border */
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #f0f4f1; /* Light gray background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  border: 3px solid #2c6e49; /* Dark green border for profile picture */
+  margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.profile-details {
+  max-width: 600px;
+  color: #333; /* Dark gray text color */
+}
+
+.profile-details h2 {
+  margin: 0 0 10px 0;
+  color: #2c6e49; /* Dark green text color */
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.profile-details h3 {
+  margin-top: 20px;
+  color: #2c6e49; /* Dark green text color */
+}
+
+.profile-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333; /* Dark gray text color */
+}
